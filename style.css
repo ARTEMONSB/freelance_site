@@ -150,13 +150,15 @@ body {
 }
 
 .why_you_should {
-    width: 800px;
+    width: 830px;
     margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .why_you_should2 {
-    padding-top: 40px;
-    width: 800px;
+    padding-top: 30px;
+    width: 830px;
     padding-left: 15px;
 }
 
