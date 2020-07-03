@@ -15,9 +15,7 @@ body {
     width: 100%;
     min-width: 1280px;
     max-width: 1280px;;
-    background-color: rgb(29, 26, 26);
-    border-left: 1px solid black;
-    border-right: 1px solid black;
+    background-color: rgb(36, 31, 31);
     margin: auto;
 }
 
@@ -25,7 +23,7 @@ body {
     padding-top: 20px;
     background-image: url(IMG/Без_назви-2.png);
     width: 100%;
-    max-width: 1280px;
+    /* max-width: 1280px; */
     height: 100%;
     min-height: 620px;
     margin: auto;
@@ -67,6 +65,7 @@ body {
     border: 3px solid black;
     width: 686px;
     height: 256px;
+    margin-top: 70px;
 }
 
 .img_header_item_img3 {
@@ -82,6 +81,7 @@ body {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    margin-top: 50px;
 }
 
 .img_header_item3 {
@@ -90,6 +90,22 @@ body {
     font-family: 'Poppins', sans-serif;
     padding-right: 15px;
     text-align: center;
+}
+
+.img_header_item5 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.img_header_item6 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 55px;
 }
 
 .text_second_style {
@@ -146,14 +162,13 @@ body {
     text-align: center;
     color: black;
     padding-top: 50px;
-    padding-bottom: 50px;
 }
 
 .why_you_should {
     width: 830px;
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 22px;
+    padding-bottom: 60px;
 }
 
 .why_you_should2 {
