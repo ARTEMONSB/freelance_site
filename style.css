@@ -1,6 +1,9 @@
 body {
     box-sizing: border-box;
     background-color: white;
+    /* text-align: center; */
+    font-family: 'Poppins', sans-serif;
+    /* font-weight: 100; */
   }
 
 .container {
@@ -14,18 +17,40 @@ body {
 .container2 {
     width: 100%;
     min-width: 1280px;
-    max-width: 1280px;;
-    background-color: rgb(36, 31, 31);
+    background-color: rgb(65, 65, 65);
     margin: auto;
+}
+
+.container3 {
+    margin: auto;
+    padding-top: 25px;
+    height: 100%;
+    padding-bottom: 25px;
+    width: 550px;
+    background-color: rgb(36, 31, 31);
+    border: 3px solid white;
+    margin-bottom: 80px;
+}
+
+.container4 {
+    margin: auto;
+    text-align: center;
+    padding-top: 25px;
+    height: 100%;
+    padding-bottom: 25px;
+    width: 380px;
+    background-color: rgb(36, 31, 31);
+    border: 3px solid white;
+    margin-bottom: 80px;
 }
 
 .header {
     padding-top: 20px;
-    background-image: url(IMG/Без_назви-2.png);
+    background-image: url(IMG/abstractiondark.jpg);
     width: 100%;
-    /* max-width: 1280px; */
+    opacity: .9;
     height: 100%;
-    min-height: 620px;
+    min-height: 630px;
     margin: auto;
 }
 
@@ -44,7 +69,7 @@ body {
     font-size: 40px;
     text-align: center;
     color: white;
-    margin-bottom: 70px;
+    margin-bottom: 85px;
 }
 
 .img_header_item {
@@ -135,39 +160,105 @@ body {
 .registration_button_item {
     padding: 10px;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     background-color: white;
     border: 3px solid black;
     text-align: center;
     transition: .3s;
-    width: 240px;
+    width: 200px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
+    margin-bottom: 55px;
   }
   
 .registration_button_item:hover {
     padding: 10px;
     border: 3px solid white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
-    width: 240px;
+    width: 200px;
+    margin: auto;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 55px;
+  }
+
+  .registration_button_item1 {
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    transition: .3s;
+    width: 280px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .registration_button_item1:hover {
+    padding: 10px;
+    border: 3px solid white;
+    font-size: 20px;
+    text-align: center;
+    width: 280px;
     margin: auto;
     background-color: black;
     color: white;
     font-family: 'Poppins', sans-serif;
   }
 
+a {
+    text-decoration: none !important;
+}
+
 .main_header {
     font-size: 40px;
     text-align: center;
     color: black;
     padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_header1 {
+    padding-top: 50px;
+    font-size: 40px;
+    text-align: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line_top_the_element {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    border-top: 1px solid black;
+}
+
+.main_header2 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main_header3 {
+    font-size: 40px;
+    border-top: 1px solid white;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
 }
 
 .why_you_should {
     width: 830px;
     margin: auto;
-    padding-top: 22px;
+    padding-top: 15px;
     padding-bottom: 60px;
 }
 
@@ -183,46 +274,252 @@ body {
     text-align: center;
 }
 
-
-
-
-/* .container2{
-    margin-top: 30px;
-    max-width: 1000px;
-    width: 100%;
-    margin: auto;
-    background-color: #ccbcac;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
-} */
-
-/* .header_settings {
-    width: 100%;
-    padding: 10px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-transform: uppercase;
-} */
-/* 
-
-
-.header_photos {
-    width: 310px;
+.ddddy {
     padding-left: 50px;
-    padding-right: 30px;
+    padding-bottom: 5px;   
+}
+
+.text_plan_design {
+    text-align: left;
+    padding-left: 30px;
+    border-left: 3px solid white;
+    margin-left: 66px;
+    font-size: 16px;
     padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.time_plan_design {
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 5px;
+    top: 50%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.countdown54 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    justify-content: center;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+.countdown-number54 {
+    padding: 10px;
+    border-radius: 3px;
+    background: rgb(77, 65, 65);
+    display: inline-block;
+  }
+  
+.countdown-time54 {
+    padding: 15px;
+    border-radius: 3px;
+    background: rgb(36, 31, 31);
+    display: inline-block;
+  }
+  
+.countdown-text54 {
+    display: block;
+    padding-top: 5px;
+    font-size: 16px;
+  }
+
+.opacity0 {
+    color: rgb(65, 65, 65);
+}
+
+.container5 {
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    width: 700px;
+    margin-bottom: 70px;
 }
 
-.header_photo2 {
-    padding-top: 10px
+.presents_class {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.header_photo1 {
-    padding-top: 20px;
-} */
+.presents_class2 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+    padding-bottom: 30px;
+}
+
+.presents_class3 {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.presents_class4 {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+}
+
+.podarki_photo1 {
+    height: 200px;
+    border: 3px solid black;
+}
+
+.podarki_text {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.podarki_text1 {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+}
+
+.container7 {
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    margin-bottom: 70px;
+
+}
+
+.invisible_text_checkbox {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.visibility_form {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    visibility: visible;
+    margin-bottom: 40px;
+}
+
+.visibility_form1 {
+    width: 300px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container8 {
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.visibility_form2 {
+    padding-top: 15px;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.visibility_form3 {
+    padding-top: 15px;
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.registration_button_item2 {
+    width: 100%;
+    padding: 4px;
+    color: white;
+    font-size: 17px;
+    background-color: black;
+    border: 3px solid white;
+    text-align: center;
+    transition: .3s;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.registration_button_item2:hover {
+    width: 100%;
+    padding: 4px;
+    color: black;
+    font-size: 17px;
+    background-color: white;
+    border: 3px solid black;
+    text-align: center;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.container9 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+
+}
+
+.container10 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.container11 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+.logo_in_footer {
+    height: 60px;
+    margin: 6px;
+    margin: auto;
+}
+
+.logo_in_footer1 {
+    height: 60px;
+    margin: 1px;
+    margin: auto;
+}
+
+.opacity1 {
+    color: black;
+}
+
+.opacity2 {
+    color: white;
+}
 
    
