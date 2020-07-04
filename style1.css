@@ -8,7 +8,7 @@ body {
 
 .container {
     width: 100%;
-    min-width: 1280px;
+    /* min-width: 1280px; */
     max-width: 1280px;
     background-color: white;
     margin: auto;
@@ -16,8 +16,8 @@ body {
 
 .container2 {
     width: 100%;
-    min-width: 1280px;
-    background-color: black;
+    /* min-width: 1280px; */
+    background-color: rgb(65, 65, 65);
     margin: auto;
 }
 
@@ -27,19 +27,21 @@ body {
     height: 100%;
     padding-bottom: 25px;
     width: 550px;
-    background-color: black;
+    background-color: rgb(36, 31, 31);
+    border: 3px solid white;
     margin-bottom: 80px;
 }
 
 .container4 {
     margin: auto;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 25px;
     height: 100%;
     padding-bottom: 25px;
     width: 380px;
-    background-color: black;
-    margin-bottom: 50px;
+    background-color: rgb(36, 31, 31);
+    border: 3px solid white;
+    margin-bottom: 80px;
 }
 
 .header {
@@ -50,53 +52,64 @@ body {
     height: 100%;
     min-height: 630px;
     margin: auto;
+    text-align: center;
 }
 
 .header_heading {
     width: auto;
-    padding-top: 90px;
+    padding-top: 50px;
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     color: white;
 }
 
 .header_heading1 {
-    width: auto;
+    width: 335px;
     font-family: 'Poppins', sans-serif;
-    font-size: 50px;
+    font-size: 25px;
     text-align: center;
+    margin: auto;
     color: white;
-    margin-bottom: 85px;
+    margin-bottom:60px;
 }
 
 .img_header_item {
     color: white;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Poppins', sans-serif;
     padding-left: 50px;
     padding-right: 50px;
-    padding-top: 50px;
+    padding-top: 30px;
+    margin: auto;
 }
 
 .img_header_item_img {
+    text-align: center;
+    width: 25px;
     margin: auto;
-    width: 40px;
 }
 
 .img_header_item_img2 {
     margin: auto;
-    border: 3px solid black;
-    width: 686px;
-    height: 256px;
+    border: 2px solid black;
+    width: 254px;
+    /* height: 256px; */
     margin-top: 70px;
 }
 
 .img_header_item_img3 {
     margin: auto;
     border: 3px solid black;
-    width: 680px;
-    height: 250px;
+    width: 250px;
+    /* height: 250px; */
+}
+
+.img_header_item_img4 {
+    text-align: center;
+    width: 40px;
+    height: 34px;
+    margin: auto;
 }
 
 
@@ -129,25 +142,27 @@ body {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    margin-top: 55px;
+    margin-top: 40px;
 }
 
 .text_second_style {
-    width: 230px;
+    /* width: 230px; */
+    text-align: center;
+
 }
 
 .one_string_photos {
-    width: 850px;
+    width: 350px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
 }
 
 .one_string_photos2 {
-    width: 1200px;
+    width: 280px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     padding-bottom: 60px;
     border-bottom: 1px solid black;
 }
@@ -213,10 +228,10 @@ a {
 }
 
 .main_header {
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     color: black;
-    padding-top: 50px;
+    padding-top: 55px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -240,7 +255,7 @@ a {
     text-align: center;
     color: white;
     padding-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -255,21 +270,35 @@ a {
 }
 
 .why_you_should {
-    width: 830px;
+    width: 250px;
     margin: auto;
+    /* display: flex;
+    justify-content: space-between; */
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
     padding-top: 15px;
-    padding-bottom: 60px;
 }
 
 .why_you_should2 {
-    padding-top: 30px;
-    width: 830px;
-    padding-left: 15px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .why_you_should_text {
+    text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px; 
+    font-size: 15px; 
+    text-align: center;
+}
+
+.why_you_should_text1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px; 
     text-align: center;
 }
 
@@ -375,7 +404,7 @@ a {
 }
 
 .podarki_photo1 {
-    width: 200px;
+    height: 200px;
     border: 3px solid black;
 }
 
@@ -453,11 +482,11 @@ a {
 }
 
 .registration_button_item2 {
-    width: 20%;
-    padding: 2px;
+    width: 100%;
+    padding: 4px;
     color: white;
-    font-size: 25px;
-    background-color: black;
+    font-size: 17px;
+    background-color: rgb(65, 65, 65);
     border: 3px solid white;
     text-align: center;
     transition: .3s;
@@ -466,10 +495,10 @@ a {
   }
 
 .registration_button_item2:hover {
-    width: 20%;
-    padding: 2px;
+    width: 100%;
+    padding: 4px;
     color: black;
-    font-size: 25px;
+    font-size: 17px;
     background-color: white;
     border: 3px solid black;
     text-align: center;
@@ -478,20 +507,20 @@ a {
   }
 
 .container9 {
-    width: 500px;
+    width: 280px;
     margin: auto;
     text-align: center;
     background-color: black;
-    margin-bottom: 20px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
+    border: 2px solid black;
 }
 
 .container10 {
-    background-color: black;
-    width: 100%;
-    height: auto;
+    width: 280px;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 20px;
 }
 
 .container11 {
@@ -504,13 +533,13 @@ a {
 }
 
 .logo_in_footer {
-    height: 80px;
+    height: 60px;
     margin: 6px;
     margin: auto;
 }
 
 .logo_in_footer1 {
-    height: 80px;
+    height: 60px;
     margin: 1px;
     margin: auto;
 }
@@ -521,6 +550,4 @@ a {
 
 .opacity2 {
     color: white;
-}
-
-   
+} 
