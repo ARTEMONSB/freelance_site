@@ -486,7 +486,7 @@ a {
   }
 
 .container9 {
-    width: 500px;
+    width: 400px;
     margin: auto;
     text-align: center;
     background-color: black;
@@ -512,8 +512,9 @@ a {
 }
 
 .logo_in_footer {
-    height: 80px;
-    margin: 6px;
+    height: 66px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin: auto;
 }
 

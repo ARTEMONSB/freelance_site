@@ -1,7 +1,9 @@
 body {
     box-sizing: border-box;
     background-color: white;
+    /* text-align: center; */
     font-family: 'Poppins', sans-serif;
+    /* font-weight: 100; */
   }
 
 .container {
@@ -13,8 +15,7 @@ body {
 
 .container2 {
     width: 100%;
-    /* min-width: 1280px; */
-    background-color: rgb(65, 65, 65);
+    background-color: black;
     margin: auto;
 }
 
@@ -24,21 +25,19 @@ body {
     height: 100%;
     padding-bottom: 25px;
     width: 550px;
-    background-color: rgb(36, 31, 31);
-    border: 3px solid white;
+    background-color: black;
     margin-bottom: 80px;
 }
 
 .container4 {
     margin: auto;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 5px;
     height: 100%;
     padding-bottom: 25px;
     width: 380px;
-    background-color: rgb(36, 31, 31);
-    border: 3px solid white;
-    margin-bottom: 80px;
+    background-color: black;
+    margin-bottom: 50px;
 }
 
 .header {
@@ -55,7 +54,7 @@ body {
     width: auto;
     padding-top: 90px;
     font-family: 'Poppins', sans-serif;
-    font-size: 60px;
+    font-size: 28px;
     text-align: center;
     color: white;
 }
@@ -63,7 +62,7 @@ body {
 .header_heading1 {
     width: auto;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 38px;
     text-align: center;
     color: white;
     margin-bottom: 85px;
@@ -79,8 +78,12 @@ body {
 }
 
 .img_header_item_img {
-    text-align: center;
+    margin: auto;
     width: 40px;
+}
+
+.img_header_item_img1 {
+    margin: auto;
 }
 
 .img_header_item_img2 {
@@ -131,6 +134,15 @@ body {
     margin-top: 55px;
 }
 
+.img_header_item7 {
+    color: black;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 35px;
+    /* width: 32%; */
+}
+
 .text_second_style {
     width: 230px;
 }
@@ -143,12 +155,20 @@ body {
 }
 
 .one_string_photos2 {
-    width: 970px;
+    width: 950px;
     margin: auto;
     display: flex;
     justify-content: space-between;
     padding-bottom: 60px;
     border-bottom: 1px solid black;
+}
+
+.one_string_photos3 {
+    width: 950px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
 }
 
 .hiding_elementintop {
@@ -212,7 +232,7 @@ a {
 }
 
 .main_header {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color: black;
     padding-top: 50px;
@@ -221,30 +241,30 @@ a {
 
 .main_header1 {
     padding-top: 50px;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color: black;
     font-family: 'Poppins', sans-serif;
 }
 
 .line_top_the_element {
-    width: 970px;
+    width: 1000px;
     margin: auto;
     display: flex;
     border-top: 1px solid black;
 }
 
 .main_header2 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
     color: white;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
 .main_header3 {
-    font-size: 40px;
+    font-size: 35px;
     border-top: 1px solid white;
     color: white;
     padding-top: 60px;
@@ -273,7 +293,7 @@ a {
 }
 
 .ddddy {
-    padding-left: 50px;
+    padding-left: 60px;
     padding-bottom: 5px;   
 }
 
@@ -281,7 +301,7 @@ a {
     text-align: left;
     padding-left: 30px;
     border-left: 3px solid white;
-    margin-left: 66px;
+    margin-left: 76px;
     font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -330,7 +350,7 @@ a {
   }
 
 .opacity0 {
-    color: rgb(65, 65, 65);
+    color: black;
 }
 
 .container5 {
@@ -374,7 +394,7 @@ a {
 }
 
 .podarki_photo1 {
-    height: 200px;
+    width: 200px;
     border: 3px solid black;
 }
 
@@ -452,11 +472,11 @@ a {
 }
 
 .registration_button_item2 {
-    width: 100%;
-    padding: 4px;
+    width: 20%;
+    padding: 2px;
     color: white;
-    font-size: 17px;
-    background-color: rgb(65, 65, 65);
+    font-size: 25px;
+    background-color: black;
     border: 3px solid white;
     text-align: center;
     transition: .3s;
@@ -465,10 +485,10 @@ a {
   }
 
 .registration_button_item2:hover {
-    width: 100%;
-    padding: 4px;
+    width: 20%;
+    padding: 2px;
     color: black;
-    font-size: 17px;
+    font-size: 25px;
     background-color: white;
     border: 3px solid black;
     text-align: center;
@@ -477,20 +497,20 @@ a {
   }
 
 .container9 {
-    width: 280px;
+    width: 400px;
     margin: auto;
     text-align: center;
     background-color: black;
-    border: 2px solid black;
+    margin-bottom: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .container10 {
-    width: 280px;
-    margin: auto;
-    text-align: center;
-    background-color: white;
-    border: 2px solid black;
-    margin-bottom: 20px;
+    background-color: black;
+    width: 100%;
+    height: auto;
 }
 
 .container11 {
@@ -503,13 +523,14 @@ a {
 }
 
 .logo_in_footer {
-    height: 60px;
-    margin: 6px;
+    height: 66px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin: auto;
 }
 
 .logo_in_footer1 {
-    height: 60px;
+    height: 80px;
     margin: 1px;
     margin: auto;
 }
@@ -520,4 +541,13 @@ a {
 
 .opacity2 {
     color: white;
+}
+
+.youtube_video_size {
+    width: 560px;
+    height: 315px;
+}
+
+.opacity3 {
+    color: black;
 }
