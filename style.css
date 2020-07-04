@@ -152,6 +152,14 @@ body {
     border-bottom: 1px solid black;
 }
 
+.one_string_photos3 {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 60px;
+}
+
 .hiding_elementintop {
     visibility: hidden;
 }
@@ -331,7 +339,7 @@ a {
   }
 
 .opacity0 {
-    color: rgb(65, 65, 65);
+    color: black;
 }
 
 .container5 {
@@ -521,6 +529,11 @@ a {
 
 .opacity2 {
     color: white;
+}
+
+.youtube_video_size {
+    width: 560px;
+    height: 315px;
 }
 
    
