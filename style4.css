@@ -1,3 +1,4 @@
+ 
 body {
     box-sizing: border-box;
     background-color: white;
@@ -24,7 +25,7 @@ body {
     padding-top: 25px;
     height: 100%;
     padding-bottom: 25px;
-    width: 270px;
+    width: 170px;
     background-color: black;
     margin-bottom: 80px;
 }
@@ -35,9 +36,9 @@ body {
     padding-top: 5px;
     height: 100%;
     padding-bottom: 25px;
-    width: 270px;
+    width: 170px;
     background-color: black;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .header {
@@ -54,7 +55,7 @@ body {
     width: auto;
     padding-top: 50px;
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     text-align: center;
     color: white;
     padding-bottom: 20px;
@@ -63,7 +64,7 @@ body {
 .header_heading1 {
     width: auto;
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     color: white;
     margin-bottom: 60px;
@@ -77,6 +78,10 @@ body {
     padding-right: 50px; */
     padding-top: 25px;
     text-align: center;
+}
+
+.text_second_style {
+    font-size: 14px;
 }
 
 .img_header_item_img {
@@ -146,14 +151,14 @@ body {
 }
 
 .one_string_photos {
-    width: 270px;
+    width: 170px;
     margin: auto;
     /* display: flex;
     justify-content: space-between; */
 }
 
 .one_string_photos2 {
-    width: 270px;
+    width: 160px;
     margin: auto;
     /* display: flex;
     justify-content: space-between; */
@@ -163,11 +168,15 @@ body {
 }
 
 .one_string_photos3 {
-    width: 270px;
+    width: 160px;
     margin: auto;
     /* display: flex;
     justify-content: space-between; */
     padding-bottom: 60px;
+}
+
+main {
+    border-right: 3px solid black;
 }
 
 .hiding_elementintop {
@@ -177,12 +186,12 @@ body {
 .registration_button_item {
     padding: 10px;
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     background-color: white;
     border: 3px solid black;
     text-align: center;
     transition: .3s;
-    width: 200px;
+    width: 150px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 55px;
@@ -191,9 +200,9 @@ body {
 .registration_button_item:hover {
     padding: 10px;
     border: 3px solid white;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
-    width: 200px;
+    width: 150px;
     margin: auto;
     background-color: black;
     color: white;
@@ -204,12 +213,12 @@ body {
   .registration_button_item1 {
     padding: 10px;
     color: black;
-    font-size: 17px;
+    font-size: 11px;
     background-color: white;
     border: 3px solid black;
     text-align: center;
     transition: .3s;
-    width: 260px;
+    width: 160px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
   }
@@ -217,9 +226,9 @@ body {
   .registration_button_item1:hover {
     padding: 10px;
     border: 3px solid white;
-    font-size: 17px;
+    font-size: 11px;
     text-align: center;
-    width: 260px;
+    width: 160px;
     margin: auto;
     background-color: black;
     color: white;
@@ -231,7 +240,7 @@ a {
 }
 
 .main_header {
-    font-size: 19px;
+    font-size: 16px;
     text-align: center;
     color: black;
     padding-top: 50px;
@@ -240,21 +249,21 @@ a {
 
 .main_header1 {
     padding-top: 50px;
-    font-size: 19px;
+    font-size: 16px;
     text-align: center;
     color: black;
     font-family: 'Poppins', sans-serif;
 }
 
 .line_top_the_element {
-    width: 270px;
+    width: 150px;
     margin: auto;
     display: flex;
     border-top: 1px solid black;
 }
 
 .main_header2 {
-    font-size: 19px;
+    font-size: 13px;
     text-align: center;
     color: white;
     padding-top: 60px;
@@ -263,7 +272,7 @@ a {
 }
 
 .main_header3 {
-    font-size: 19px;
+    font-size: 16px;
     border-top: 1px solid white;
     color: white;
     padding-top: 60px;
@@ -310,7 +319,7 @@ a {
 
 .time_plan_design {
     padding-left: 20px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     padding-top: 5px;
     top: 50%;
@@ -325,18 +334,18 @@ a {
     display: inline-block;
     font-weight: 100;
     text-align: center;
-    font-size: 17px;
+    font-size: 12px;
   }
   
 .countdown-number54 {
-    padding: 5px;
+    padding: 3px;
     border-radius: 3px;
     background: rgb(77, 65, 65);
     display: inline-block;
   }
   
 .countdown-time54 {
-    padding: 6px;
+    padding: 3px;
     border-radius: 3px;
     background: rgb(36, 31, 31);
     display: inline-block;
@@ -345,7 +354,7 @@ a {
 .countdown-text54 {
     display: block;
     padding-top: 2px;
-    font-size: 11px;
+    font-size: 7px;
   }
 
 .opacity0 {
@@ -355,12 +364,12 @@ a {
 .container5 {
     margin: auto;
     text-align: center;
-    width: 270px;
+    width: 170px;
     margin-bottom: 70px;
 }
 
 .presents_class {
-    font-size: 15px;
+    font-size: 10px;
     color: black;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -369,7 +378,7 @@ a {
 }
 
 .presents_class2 {
-    font-size: 16px;
+    font-size: 10px;
     color: white;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -385,7 +394,7 @@ a {
 }
 
 .presents_class4 {
-    font-size: 15px;
+    font-size: 12px;
     color: white;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -393,12 +402,12 @@ a {
 }
 
 .podarki_photo1 {
-    width: 200px;
+    width: 150px;
     border: 3px solid black;
 }
 
 .podarki_text {
-    font-size: 17px;
+    font-size: 14px;
     color: black;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -417,13 +426,13 @@ a {
 .container7 {
     margin: auto;
     text-align: center;
-    width: 270px;
+    width: 170px;
     margin-bottom: 70px;
 
 }
 
 .invisible_text_checkbox {
-    font-size: 15px;
+    font-size: 10px;
     color: white;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -448,14 +457,14 @@ a {
 }
 
 .container8 {
-    width: 270px;
+    width: 170px;
     text-align: center;
     margin: auto;
 }
 
 .visibility_form2 {
     padding-top: 15px;
-    font-size: 16px;
+    font-size: 12px;
     color: black;
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -496,7 +505,7 @@ a {
   }
 
 .container9 {
-    width: 270px;
+    width: 170px;
     margin: auto;
     text-align: center;
     background-color: black;
@@ -514,6 +523,7 @@ a {
 
 .container11 {
     width: 100%;
+    font-size: 10px;
     margin: auto;
     text-align: center;
     background-color: black;
@@ -530,7 +540,7 @@ a {
 }
 
 .logo_in_footer1 {
-    height: 30px;
+    height: 25px;
     margin: 1px;
     margin: auto;
 }
@@ -544,8 +554,8 @@ a {
 }
 
 .youtube_video_size {
-    width: 260px;
-    height: 147px;
+    width: 170px;
+    height: 96px;
 }
 
 .opacity3 {
@@ -553,7 +563,7 @@ a {
 }
 
 .text_second_page {
-    font-size: 20px;
+    font-size: 17px;
     text-align: center;
     padding-top: 150px;
     color: white;
@@ -561,7 +571,7 @@ a {
 }
 
 .text_second_page1 {
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     color: white;
 }

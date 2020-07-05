@@ -523,7 +523,8 @@ a {
 }
 
 .logo_in_footer {
-    height: 66px;
+    width: 140px;
+    height: 62px;
     padding-top: 7px;
     padding-bottom: 7px;
     margin: auto;
@@ -550,6 +551,30 @@ a {
 
 .opacity3 {
     color: black;
+}
+
+.text_second_page {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 150px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.text_second_page1 {
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
+
+.header1 {
+    padding-top: 20px;
+    background-image: url(IMG/abstractiondark.jpg);
+    width: 100%;
+    opacity: .9;
+    height: 100%;
+    min-height: 630px;
+    margin: auto;
 }
 
    
