@@ -403,7 +403,7 @@ a {
 
 .podarki_photo1 {
     width: 150px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
 
 .podarki_text {
